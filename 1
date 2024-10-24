@@ -1,7 +1,10 @@
 getgenv().Config = {
-	["Resource"] = {
-		["Auto Farm"] = true,
-		["Auto Hidden Gift"] = true
+	["AutoSave"] = true,
+	["Webhook"] = {
+		["Mention"] = "@everyone",
+		["URL"] = "https://discord.com/api/webhooks/1200472646060613803/KcyfZ3CsGd6QNMCooPygaoJsn2hSuI4SBTMH-gI3vywuvHQDbGr9id8T2Y6t5TbmMQZj",
+		["Minimum Chance"] = 100000000,
+		["Pet Rolled"] = true
 	},
 	["Consumer"] = {
 		["Potion"] = {
@@ -21,11 +24,11 @@ getgenv().Config = {
 			["Enable"] = true,
 			["Fruit"] = {
 				["Watermelon"] = true,
-				["Pineapple"] = true,
+				["Banana"] = true,
 				["Rainbow"] = true,
 				["Apple"] = true,
 				["Orange"] = true,
-				["Banana"] = true
+				["Pineapple"] = true
 			},
 			["Consume Shiny"] = true
 		}
@@ -35,57 +38,56 @@ getgenv().Config = {
 		["Potion"] = {
 			["Coins Potion II"] = true,
 			["The Cocktail"] = true,
+			["Lucky Potion IV"] = true,
 			["Lucky Potion V"] = true,
-			["Rainbow Dice Potion"] = true,
 			["Walkspeed Potion II"] = true,
 			["Faster Rolls Potion I"] = true,
-			["Faster Rolls Potion II"] = true,
-			["Lucky Potion VII"] = true,
 			["Coins Potion VII"] = true,
-			["Instant Luck Potion I"] = true,
-			["Coins Potion V"] = true,
-			["Lucky Potion II"] = true,
-			["Instant Luck Potion II"] = true,
-			["Coins Potion III"] = true,
+			["Lucky Potion VII"] = true,
 			["Breakables Potion I"] = true,
+			["Coins Potion VI"] = true,
+			["Rainbow Dice Potion"] = true,
+			["Instant Luck Potion I"] = true,
+			["Lucky Potion VI"] = true,
+			["Coins Potion III"] = true,
+			["Coins Potion V"] = true,
 			["Golden Dice Potion"] = true,
 			["Items Potion II"] = true,
-			["Coins Potion IV"] = true,
+			["Blazing Dice Potion"] = true,
 			["Items Potion IV"] = true,
 			["Walkspeed Potion III"] = true,
 			["Walkspeed Potion I"] = true,
-			["Breakables Potion III"] = true,
 			["Items Potion III"] = true,
+			["Breakables Potion III"] = true,
 			["Breakables Potion II"] = true,
 			["Lucky Potion III"] = true,
-			["Blazing Dice Potion"] = true,
-			["Lucky Potion VI"] = true,
+			["Coins Potion IV"] = true,
+			["Instant Luck Potion II"] = true,
 			["Instant Luck Potion III"] = true,
-			["Coins Potion VI"] = true,
+			["Faster Rolls Potion II"] = true,
 			["Items Potion I"] = true,
-			["Lucky Potion IV"] = true
+			["Lucky Potion II"] = true
 		}
 	},
 	["Upgrader"] = {
-		["Shiny"] = true,
 		["Rainbow"] = true,
+		["Shiny"] = true,
 		["Keep Amount"] = 20
 	},
-	["Sender"] = {
-		["Minimum Chance"] = 1000000
+	["Resource"] = {
+		["Auto Farm"] = true,
+		["Auto Hidden Gift"] = true
 	},
 	["Receiver"] = {
 		["Auto Claim Mail"] = true
 	},
-	["Webhook"] = {
-		["Mention"] = "@everyone",
-		["URL"] = "https://discord.com/api/webhooks/1200472646060613803/KcyfZ3CsGd6QNMCooPygaoJsn2hSuI4SBTMH-gI3vywuvHQDbGr9id8T2Y6t5TbmMQZj",
-		["Minimum Chance"] = 100000000,
-		["Pet Rolled"] = true
-	},
 	["Performance"] = {
-		["Boost FPS"] = true,
-		["Black Screen"] = false
+		["Disable LocalScript"] = true,
+		["Boost FPS"] = true
+	},
+	["Sender"] = {
+		["Minimum Chance"] = 10000000,
+		["Receiver Name"] = "thienfaker14"
 	},
 	["Buyer"] = {
 		["Merchant"] = {
@@ -93,30 +95,29 @@ getgenv().Config = {
 			["Item"] = {
 				["Coins Potion II"] = true,
 				["Lucky Potion IV"] = true,
-				["Lucky Potion V"] = true,
+				["Rainbow Dice Potion"] = true,
 				["Faster Rolls Potion I"] = true,
 				["Faster Rolls Potion II"] = true,
 				["Instant Luck Potion I"] = true,
 				["Coins Potion I"] = true,
 				["Breakables Potion I"] = true,
-				["Instant Luck Potion II"] = true,
-				["Items Potion II"] = true,
-				["Coins Potion III"] = true,
-				["Coins Potion V"] = true,
-				["Rainbow Dice Potion"] = true,
 				["Golden Dice Potion"] = true,
+				["Items Potion II"] = true,
+				["Lucky Potion II"] = true,
+				["Coins Potion V"] = true,
+				["The Cocktail"] = true,
+				["Instant Luck Potion II"] = true,
 				["Lucky Potion I"] = true,
 				["Breakables Potion II"] = true,
 				["Lucky Potion III"] = true,
 				["Blazing Dice Potion"] = true,
 				["Coins Potion IV"] = true,
 				["Instant Luck Potion III"] = true,
-				["The Cocktail"] = true,
+				["Lucky Potion V"] = true,
 				["Items Potion I"] = true,
-				["Lucky Potion II"] = true
+				["Coins Potion III"] = true
 			}
 		},
-		["Potion Vending"] = true,
 		["Index Shop"] = {
 			["Enable"] = true,
 			["Item"] = {
@@ -127,23 +128,24 @@ getgenv().Config = {
 				["Instant Luck Potion I"] = true,
 				["Coins Potion I"] = true,
 				["Breakables Potion I"] = true,
-				["Golden Dice Potion"] = true,
-				["Ice Cream Hoverboard"] = true,
-				["Coins Potion III"] = true,
-				["Coins Potion V"] = true,
 				["Instant Luck Potion II"] = true,
-				["Instant Luck Potion III"] = true,
+				["Ice Cream Hoverboard"] = true,
+				["Breakables Potion II"] = true,
+				["Rainbow Dice Potion"] = true,
+				["Lucky Potion I"] = true,
+				["Ice Cream Booth"] = true,
 				["Rave Crab Booth"] = true,
 				["Rave Crab Hoverboard"] = true,
 				["Lucky Potion III"] = true,
 				["Coins Potion IV"] = true,
 				["Lucky Potion II"] = true,
-				["Ice Cream Booth"] = true,
-				["Lucky Potion I"] = true,
-				["Rainbow Dice Potion"] = true,
-				["Breakables Potion II"] = true
+				["Instant Luck Potion III"] = true,
+				["Golden Dice Potion"] = true,
+				["Coins Potion V"] = true,
+				["Coins Potion III"] = true
 			}
-		}
+		},
+		["Potion Vending"] = true
 	},
 	["Interface"] = {
 		["Auto Upgrade"] = true,
